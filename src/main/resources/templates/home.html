@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Synclet</title>
+    <link rel="stylesheet" th:href="@{/header.css}">
+    <link rel="stylesheet" th:href="@{/footer.css}">
+    <link rel="stylesheet" th:href="@{/home.css}">
+</head>
+<body>
+<header th:insert="~{header/header :: header}"></header>
+<footer th:insert="~{footer/footer :: footer}"></footer>
+
+<script>
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+</script>
+</body>
+</html>

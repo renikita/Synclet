@@ -4,4 +4,227 @@
     box-sizing: border-box;
     user-select: none;
 }
+.main-bg
+{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: inline-grid;
+    background-color: rgba(14, 88, 174, 0.1);
+}
+.homePage-section{
+    margin-top: 0;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    max-width: 1980px;
+    padding: 0 16px 100px;
+    display: inline-grid;
+}
+.hero{
+    margin-top: 0;
+    margin-left:0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+    padding-left: 0;
+    padding-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.left-wrap{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 590px;
+    padding-bottom: 50px;
+    display: inline-grid;
+    background:
+            url('img/home-illustration/firstillustration.png') no-repeat top 50% right 15%,
+            url('img/home-illustration/secondillustration.png') no-repeat top 50% right 0,
+            url('img/home-illustration/thirdillustration.png') no-repeat bottom 10% left 10%,
+            url('img/home-illustration/fourillustration.png') no-repeat center left 10%;
+    background-size: auto auto, auto auto, auto auto, auto auto;
+    background-blend-mode: overlay;
+}
+
+.hero-phone{
+    margin-top: 0;
+    margin-left: 19%;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 630px;
+    max-width: 355px;
+    padding: 10px 40px 35px;
+    display: inline-grid;
+    background:
+    url("img/phone.png") no-repeat center center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.right-wrap{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 690px;
+    padding: 50px 0;
+    display: inline-grid;
+
+}
+
+.hero-text{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding-bottom: 30px;
+    font-family: Inter, serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.8ch;
+}
+
+.container-skill{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 605px;
+    padding: 20px 0 0;
+    display: flex;
+    gap: 30px;
+
+}
+
+.skill-div{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 165px;
+    padding: 0;
+    display: inline-grid;
+
+}
+
+.skill-icon{
+    margin: 0;
+    position: relative;
+    min-width: 10px;
+    min-height: 10px;
+    padding: 0;
+    width: 32px;
+    height: auto;
+}
+
+.skill-text{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    paddingg-top: 15px;
+    font-family: Inter, serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    line-height: 1.8;
+    opacity: 60%;
+}
+
+.div-btns{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-trynow{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 130px;
+    min-height: auto;
+    padding: 10px 28px;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #1240cbff;
+    border-radius: 12px;
+    border: #333333 groove 0;
+    cursor: pointer;
+}
+.btn-icon{
+    transition: 0.3s ease-in-out;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 20px;
+    min-height: 20px;
+    padding: 8px 16px;
+    gap: 8px;
+    background-color: transparent;
+    border: transparent solid;
+    cursor: pointer;
+    color: #1240cbff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.btn-trynow:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #4968c6;
+}
+
+.btn-trynow:active{
+    transition: 0.1s ease-in-out;
+    background-color: #4968c6;
+    box-shadow: 0 0 20px #4968c6;
+}
+
+.btn-icon:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #9a9a9a;
+    color: white;
+}
+
+.btn-icon:active{
+    transition: 0.1s ease-in-out;
+    background-color: #9a9a9a;
+    box-shadow: 0 0 20px #9a9a9a;
+}
+
+
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div th:fragment="homePage" class="homePage-section" id="homePage">
+<div class="hero">
+    <div class="left-wrap">
+        <div class="hero-phone"></div>
+    </div>
+    <div class="right-wrap">
+        <h1 class="hero-text">
+            Empower Your Workflow Seamlessly
+        </h1>
+        <div class="container-skill">
+            <div class="skill-div">
+                <img class="skill-icon" th:src="@{/img/icon-skill/energy-96px.png}" alt="Energy">
+                <p class="skill-text">Seamless Automatic File Sync</p>
+            </div>
+            <div class="skill-div">
+                <img class="skill-icon" th:src="@{/img/icon-skill/star-96px.png}" alt="Energy">
+                <p class="skill-text">Intuitive Web-Based Task Management</p>
+            </div>
+            <div class="skill-div">
+                <img class="skill-icon" th:src="@{/img/icon-skill/fan-96px.png}" alt="Energy">
+                <p class="skill-text">Effortless Performance Monitoring Tool</p>
+            </div>
+        </div>
+        <div class="div-btns">
+            <button class="btn-trynow">Try now</button>
+            <button class="btn-icon">Get Started →</button>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>

@@ -6,7 +6,28 @@
 </head>
 <body>
 <div th:fragment="services" class="service-section" id="services">
+<div class="container-service">
+    <section class="left-block">
+        <h2 class="h2-services">Our Services</h2>
+        <div class="services-benefits">
+            <div class="service-benefit"><div class="font-arrow"></div><p class="text-p-benefit">Seamlessly Sync Across Platforms</p></div>
+            <div class="service-benefit"><div class="font-arrow"></div><p class="text-p-benefit">Comprehensive File Handling Options</p></div>
+            <div class="service-benefit"><div class="font-arrow"></div><p class="text-p-benefit">Monitor Performance with Ease</p></div>
+        </div>
+        <button class="btn-exploreServices">Explore Services</button>
+    </section>
 
+    <section class="right-block">
+        <div class="left-wrap-services">
+            <div class="service-div"><img th:src="@{/img/icon-services/configuration-48.png}" alt="add-file"><h3 class="h3-service">Automate File Sync</h3><p class="desc-service">Experience seamless file management across multiple platforms effortlessly and securely with Synclet's intuitive solutions.</p></div>
+            <div class="service-div"><img th:src="@{/img/icon-services/light-bulb-48.png}" alt="add-file"><h3 class="h3-service">Data Security</h3><p class="desc-service">Enhance data safety and productivity seamlessly with top-tier synchronization solutions.</p></div>
+        </div>
+        <div class="right-wrap-services">
+            <div class="service-div service-div-right"><img th:src="@{/img/icon-services/add-file-48.png}" alt="add-file"><h3 class="h3-service">File Management</h3><p class="desc-service">Simplify file management effortlessly with Synclet's smart synchronization features and intuitive web-interface.</p></div>
+            <div class="service-div service-div-right"><img th:src="@{/img/icon-services/location-arrow-48.png}" alt="add-file"><h3 class="h3-service">Performance Insights</h3><p class="desc-service">Enhance data safety and productivity seamlessly with top-tier synchronization solutions.</p></div>
+        </div>
+    </section>
+</div>
 </div>
 </body>
 </html>

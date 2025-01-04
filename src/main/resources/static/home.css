@@ -34,8 +34,7 @@
     width: 100%;
     height: auto;
     max-width: 1300px;
-    padding-left: 0;
-    padding-top: 100px;
+    padding: 100px 0 0;
     display: flex;
     gap: 50px;
 }
@@ -145,7 +144,7 @@
     height: fit-content;
     min-width: 16px;
     min-height: 10px;
-    paddingg-top: 15px;
+    padding-top: 15px;
     font-family: Inter, serif;
     font-size: 15px;
     font-weight: 300;

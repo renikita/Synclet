@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" th:href="@{/img/favicon/favicon.svg}">
     <title>Home - Synclet</title>
     <link rel="stylesheet" th:href="@{/header.css}">
     <link rel="stylesheet" th:href="@{/footer.css}">
@@ -17,7 +18,7 @@
 <!--    <section th:insert="~{home/benefit :: benefit}"></section>-->
 <!--    <section th:insert="~{home/contact :: contact}"></section>-->
 </main>
-<footer class="fade-in" th:insert="~{footer/footer :: footer}"></footer>
+<footer th:insert="~{footer/footer :: footer}"></footer>
 <script>
         // document.addEventListener('contextmenu', function(e) {
         //     e.preventDefault();

@@ -25,11 +25,12 @@ public class SecurityConfig{
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
+                
                 .authorizeHttpRequests(auth -> auth
                         .anyRequest().permitAll()
                 )
                 .formLogin(form -> form
-                        .loginPage("/") // Сторінка входу
+                        .loginPage("/")
                         .permitAll()
                 )
                 .logout(logout -> logout.permitAll());

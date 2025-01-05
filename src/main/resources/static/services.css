@@ -116,6 +116,7 @@
     background-color: #1240cbff;
     border-radius: 12px;
     border: transparent;
+    cursor: pointer;
 }
 
 .btn-exploreServices:hover{
@@ -215,4 +216,135 @@
     font-weight: 400;
     color: black;
     line-height: 1.8;
+}
+
+.community-service{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 520px;
+    max-width: 1300px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: rgba(14, 88, 174, 0.1);
+    border-radius: 36px;
+
+}
+
+.left-block-service{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    max-width: 560px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.right-block-service{
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    max-width: 442px;
+    padding: 0;
+    display: inline-grid;
+
+}
+
+.h2-services-community{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding-bottom: 20px;
+    font-family: Inter, serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.p-service-community{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding-bottom: 40px;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    line-height: 1.6;
+
+}
+
+.btn-joinOurCommunity{
+    transition: 0.3s ease-in-out;
+    margin-top: 0;
+    margin-left: 0;
+    width: fit-content;
+    height: fit-content;
+    min-width: 130px;
+    min-height: 48px;
+    padding: 10px 28px;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1240cbff;
+    border-radius: 12px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.btn-joinOurCommunity:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #4968c6;
+}
+
+.btn-joinOurCommunity:active{
+    transition: 0.1s ease-in-out;
+    background-color: #4968c6;
+    box-shadow: 0 0 20px #4968c6;
+}
+
+.partners-div{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 170px;
+    height: 96px;
+    padding: 10px;
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #7F7F7F;
+    border-radius: 18px;
+}
+
+.partners-img{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 112px;
+    height: 25px;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 0;
+    object-fit: contain;
 }

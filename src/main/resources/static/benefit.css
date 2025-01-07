@@ -1,0 +1,28 @@
+.benefit-section{
+    margin-top: 0;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 1980px;
+    padding: 50px 16px;
+    display: inline-grid;
+    background-color: #ffffffe5;
+}
+
+.h2-benefit{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding-bottom: 20px;
+    font-family: Inter, serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+

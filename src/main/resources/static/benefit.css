@@ -7,6 +7,8 @@
     max-width: 1980px;
     padding: 50px 16px;
     display: inline-grid;
+    justify-content: center;
+    justify-items: center;
     background-color: #ffffffe5;
 }
 
@@ -25,4 +27,74 @@
     color: black;
     text-align: center;
 }
+.container-benefits{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 30px;
+}
 
+.benefit-div{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    padding: 0;
+    display: inline-grid;
+    justify-items: center;
+}
+
+.img-benefit{
+    margin: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 42px;
+    max-height: 42px;
+    padding: 0;
+
+}
+
+.h3-benefit{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: Inter, serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.p-benefit-under-h3{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding: 0;
+    font-family: Inter, serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+}

@@ -50,6 +50,14 @@
     padding: 0;
     display: inline-grid;
     justify-items: center;
+    transition: 0.8s;
+}
+
+.benefit-div:hover{
+    background-color: #f5f5f5;
+    transition: 0.8s;
+    border-radius: 50px;
+    box-shadow: 5px 5px 23px 1px rgba(0, 0, 0, 0.2);
 }
 
 .img-benefit{
@@ -97,4 +105,125 @@
     color: black;
     text-align: center;
     line-height: 1.6;
+}
+.container-cards{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 1980px;
+    padding: 50px 10px 50px 16px;
+    display: inline-grid;
+    justify-items: center;
+    row-gap: 30px;
+}
+.cards-div{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 1140px;
+    padding-top: 40px;
+    display: flex;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.card-body{
+    transition: 0.3s;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 265px;
+    padding: 25px 20px;
+    display: inline-grid;
+    justify-items: center;
+    column-gap: 15px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 21px 0px #00000033;
+
+}
+
+.card-body:hover{
+    background-color: #f5f5f5;
+    padding: 20px;
+    transition: 0.8s;
+    box-shadow: 5px 5px 23px 1px rgba(1, 60, 5, 0.2);
+}
+
+.body-circle{
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.img-card{
+    width: 48px;
+    height: auto;
+}
+
+.container-cards .card-body:first-child .body-circle{
+    background-color: #f5a623ff;
+}
+
+.container-cards .card-body:nth-child(2) .body-circle{
+    background-color: #2c4d06ff;
+}
+
+.container-cards .card-body:nth-child(3) .body-circle{
+    background-color: #f5a623ff;
+}
+
+.container-cards .card-body:last-child .body-circle{
+    background-color: #2c4d06ff;
+}
+
+
+.h1-card{
+    margin-top: 20px;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    heigth: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000ff;
+}
+.p-card{
+    margin-top: 20px;
+    margin-left: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    padding: 0;
+    font-family: Inter, serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #9b9b9bff;
+    text-align: center;
+
+}
+
+.suffix {
+    opacity: 0;
+    transition: opacity 1s;
 }

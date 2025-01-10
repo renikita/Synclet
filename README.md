@@ -69,7 +69,7 @@ Synclet is a Spring Boot application designed to simplify data management by syn
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the Eclipse Public License 2.0 (EPL-2.0). See the `LICENSE` file for details.
 
 ---
 

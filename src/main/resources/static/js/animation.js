@@ -1,4 +1,5 @@
 
+
 const elements = document.querySelectorAll('.fade-in');
 
 const observer = new IntersectionObserver((entries, observer) => {
